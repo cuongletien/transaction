@@ -1,0 +1,10 @@
+extend ../common.pug
+block content
+  h1 Transactions
+  ul
+    each transaction in transactions
+      li= transaction.name
+        a(href="/transactions/" + transaction.id) remove
+        a(href="/transactions/" + transaction.id + "/complete")  view
+  p
+    a(href="transactions/create") Add New Transaction

@@ -1,0 +1,10 @@
+extend ../common.pug
+block content
+  form(action="", method="POST")
+    div
+      label(for="name") Name: 
+      input(type="text", name="name")
+    div
+      label(for="description") Email: 
+      input(type="email", name="email")
+    button add

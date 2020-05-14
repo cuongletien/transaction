@@ -1,0 +1,17 @@
+extend ../common.pug
+block content
+  a(href="/transactions") back to Transactions
+  form(action="", method="POST")
+    div
+      label(for="name") User Name: 
+      input(type="text", name="user", value=user.name)
+    div
+      label(for="name") Book Name: 
+      input(type="text", name="book", value=book.name)
+    div
+      label(for="name") Complete: 
+      if transaction.completed == true
+        input(type='checkbox', name="checked" , checked)
+      else
+        input(type='checkbox', name="checked")
+    button Update

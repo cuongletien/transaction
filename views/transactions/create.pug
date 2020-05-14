@@ -1,0 +1,12 @@
+extend ../common.pug
+block content
+  form(action="", method="POST")
+    div
+      select(name='user')
+        each user in users
+          option(value=user.id)= user.name
+    div
+      select(name='book')
+        each book in books
+          option(value=book.id)= book.name
+    button add

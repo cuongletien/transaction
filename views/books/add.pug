@@ -1,0 +1,9 @@
+extend ../common.pug
+block content
+  h1 Add New Book
+  form.form-inline(action="", method="POST")
+    label.sr-only(for='inlineFormInputName') Name
+    input#inlineFormInputName.form-control.mb-2.mr-sm-2(type='text', name='name', placeholder='Name')
+    label.sr-only(for='inlineFormInputDes') Username
+    input#inlineFormInputDes.form-control.mb-2.mr-sm-2(type='text', name='description', placeholder='Description')
+    button.btn.btn-primary.mb-2(type='submit') Submit

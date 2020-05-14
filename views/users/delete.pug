@@ -1,0 +1,9 @@
+extend ../common.pug
+block content
+  h1 books
+  a(href="/add") Add New Book
+  ul
+    each book in books
+      li= book.name
+        a(href="/" + book.id)  remove
+        a(href="/update/" + book.id)  edit

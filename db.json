@@ -1,0 +1,96 @@
+{
+  "books": [
+    {
+      "id": "yHVUhzf0A",
+      "name": "Clean code from Uncle Bob",
+      "description": ""
+    },
+    {
+      "id": "_hG9bIfqP",
+      "name": "Grokking Algorithms",
+      "description": ""
+    },
+    {
+      "id": "kMm-UPAOI",
+      "name": "Head First Design Patterns",
+      "description": ""
+    },
+    {
+      "id": "l-6bCdgXu",
+      "name": "Test Driven Development",
+      "description": ""
+    },
+    {
+      "id": "0uuTDWCJT",
+      "name": "Soft Skills",
+      "description": ""
+    },
+    {
+      "id": "5lWbYdOuT",
+      "name": "Programming Elixir",
+      "description": ""
+    },
+    {
+      "id": "spcY3pCd_",
+      "name": "The Pragmatic Programmer",
+      "description": ""
+    },
+    {
+      "id": "ZcyUp3vRg",
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "description": ""
+    }
+  ],
+  "users": [
+    {
+      "id": "-61O8cFo0",
+      "name": "Cuong",
+      "email": "cuonglt1408@gmail.com"
+    },
+    {
+      "id": "lVJAFl24b",
+      "name": "Tuan",
+      "email": "tuanlt1408@gmail.com"
+    },
+    {
+      "id": "5ZXDL3_mA",
+      "name": "Long",
+      "email": "longlt1408@gmail.com"
+    },
+    {
+      "id": "5aEJgjMRo",
+      "name": "Duc",
+      "email": "duclt1408@gmail.com"
+    },
+    {
+      "id": "3pnY08MeE",
+      "name": "Nguyen",
+      "email": "nguyenlt1408@gmail.com"
+    },
+    {
+      "id": "nhhiKQneQ",
+      "name": "Cuong",
+      "email": "demo@demo.com"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "KeX9Nv1Dt",
+      "bookId": "yHVUhzf0A",
+      "userId": "-61O8cFo0",
+      "completed": false
+    },
+    {
+      "id": "vh-IKxPLZ",
+      "bookId": "kMm-UPAOI",
+      "userId": "5ZXDL3_mA",
+      "completed": true
+    },
+    {
+      "id": "9A7eYYeHb",
+      "bookId": "0uuTDWCJT",
+      "userId": "lVJAFl24b",
+      "completed": false
+    }
+  ]
+}

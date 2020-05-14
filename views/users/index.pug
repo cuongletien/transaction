@@ -1,0 +1,10 @@
+extend ../common.pug
+block content
+  h1 Users
+  ul
+    each user in users
+      li= user.name
+        a(href="/users/" + user.id)  remove
+        a(href="/users/update/" + user.id)  edit
+  p
+  a(href="Users/add") Add New User

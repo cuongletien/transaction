@@ -1,0 +1,8 @@
+extend ../common.pug
+block content
+  form(action="", method="POST")
+    div
+      label(for="name") Name: 
+      input(type="text", name="name", value=book.name)
+    div
+    button Edit
